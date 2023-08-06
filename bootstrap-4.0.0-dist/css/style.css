@@ -1,0 +1,145 @@
+.navbar{
+
+    display: flex;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+}
+.navbar .container-fluid{
+    background-color: rgb(187, 214, 237);
+    height: 80px;
+    border-radius: 3px;
+}
+
+.navbar-brand img{
+    height: 72px;
+    width: 80px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: -14px;
+  
+}
+
+
+.btn-brown {
+    background-color: #92c7eb; 
+  }
+  
+ 
+  .btn-brown:hover {
+    background-color: #439dec;
+  }
+  
+  .btn-group-toggle {
+    margin: 17px;
+  }
+  
+  .bg-brown {
+    background-color: #f4dccc;
+  }
+
+  .code{
+    width: 100%;
+    height: 400px;
+    opacity: 0.5;
+    border: none;
+    margin-top: 15px;
+    margin-left: 10px;
+
+  }
+  
+  body{
+    background-color: rgb(95, 95, 212);
+  }
+
+  p strong{
+    font-size: larger;
+    font-weight: 300px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+ .para .font-weight-bold strong{
+    color: rgb(8, 2, 2);
+ }
+ .photo_animation{
+    height: 300px;
+ }
+.para{
+    position: relative;
+    top: 140px;
+    left: 10px;
+
+}
+
+ .see{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+ }
+
+ @media screen and (max-width: 767px) {
+    .col-sm-12 {
+      width: 100%;
+      height: 320px;
+      float: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .Block1, .Block2, .Block3 ,.Block4,.Block5{
+      float: left;
+      width: 50%;
+      box-sizing: border-box;
+      padding: 15px;
+    }
+  }
+.photo_C{
+    border-radius: 5px;
+}
+
+
+  .Block1:hover{
+    margin-top: 70px;
+    transform: scale(0.9); 
+    box-shadow: 0 0 5px #888;
+background-color: rgb(187, 214, 237);
+  }
+  .Block2:hover{
+    margin-top: 70px;
+background-color: rgb(187, 214, 237);
+transform: scale(0.9); 
+box-shadow: 0 0 5px #888;
+  }
+  .Block3:hover{
+    margin-top: 70px;
+    transform: scale(0.9); 
+    box-shadow: 0 0 5px #888;
+background-color: rgb(187, 214, 237);
+  }
+  .Block4:hover{
+    margin-top: 70px;
+    transform: scale(0.9); 
+    box-shadow: 0 0 5px #888;
+background-color: rgb(187, 214, 237);
+  }
+  .Block5:hover{
+    margin-top: 70px;
+    transform: scale(0.9); 
+    box-shadow: 0 0 5px #888;
+background-color: rgb(187, 214, 237);
+  }
+
+  .fin{
+    background-color: rgb(187, 214, 237);
+  }
+
+  .espace{
+    width: 100%;
+    height: 50px;
+  }
+
+  .alwan{
+    background-color: rgb(249, 233, 233);
+  }
